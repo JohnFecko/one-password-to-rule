@@ -1,0 +1,36 @@
+{
+  "name": "@optr/components",
+  "version": "0.0.5",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/web-components/web-components.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.2.4",
+    "@stencil/sass": "^1.0.1",
+    "@types/md5": "^2.1.33",
+    "@types/zxcvbn": "^4.4.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ionic/core": "^4.7.4",
+    "@optr/lib": "^0.0.7",
+    "copy-to-clipboard": "^3.2.0",
+    "zxcvbn": "^4.4.2"
+  }
+}

@@ -1,0 +1,14 @@
+optr-decode-field .field {
+  margin-top: 15px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+optr-decode-field .copy-button {
+  height: auto;
+}

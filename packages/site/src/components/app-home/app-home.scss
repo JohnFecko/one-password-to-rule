@@ -1,0 +1,23 @@
+app-home {
+  ion-title {
+    font-weight: 600;
+    font-size: 20px;
+
+    ion-icon {
+      margin-left: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      font-weight: 600;
+    }
+  }
+
+  #github-button {
+    margin-right: 10px;
+  }
+}
