@@ -2,6 +2,7 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property   | Attribute  | Description | Type      | Default |
@@ -10,17 +11,19 @@
 | `disabled` | `disabled` |             | `boolean` | `true`  |
 | `value`    | `value`    |             | `string`  | `""`    |
 
+
 ## Events
 
 | Event    | Description | Type               |
 | -------- | ----------- | ------------------ |
 | `onCopy` |             | `CustomEvent<any>` |
 
+
 ## Dependencies
 
 ### Used by
 
-- [optr-app](../optr-app)
+ - [optr-app](../optr-app)
 
 ### Depends on
 
@@ -33,7 +36,6 @@
 - ion-toast-controller
 
 ### Graph
-
 ```mermaid
 graph TD;
   optr-decode-field --> ion-button
@@ -48,6 +50,6 @@ graph TD;
   style optr-decode-field fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
----
+----------------------------------------------
 
-_Built with [StencilJS](https://stenciljs.com/)_
+*Built with [StencilJS](https://stenciljs.com/)*

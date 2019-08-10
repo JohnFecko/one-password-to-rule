@@ -2,6 +2,7 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property            | Attribute            | Description | Type       | Default     |
@@ -16,11 +17,12 @@
 | `strengthValue`     | `strength-value`     |             | `number`   | `undefined` |
 | `value`             | `value`              |             | `string`   | `undefined` |
 
+
 ## Dependencies
 
 ### Used by
 
-- [optr-app](../optr-app)
+ - [optr-app](../optr-app)
 
 ### Depends on
 
@@ -33,7 +35,6 @@
 - ion-progress-bar
 
 ### Graph
-
 ```mermaid
 graph TD;
   optr-field --> ion-grid
@@ -47,6 +48,6 @@ graph TD;
   style optr-field fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
----
+----------------------------------------------
 
-_Built with [StencilJS](https://stenciljs.com/)_
+*Built with [StencilJS](https://stenciljs.com/)*
