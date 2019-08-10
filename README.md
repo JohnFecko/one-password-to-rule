@@ -4,6 +4,8 @@ Is it possible to create of easy to remember, hard to guess secure deterministic
 
 This project is meant to be an experiment on deterministic password generation and management.
 
+<p><image src="https://raw.githubusercontent.com/leoafarias/one-password-to-rule/master/assets/optr-demo.gif" width="300px"/></p>
+
 ## Motivation
 
 * Passwords are part of our day to day life.
