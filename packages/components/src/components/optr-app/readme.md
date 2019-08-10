@@ -2,6 +2,7 @@
 
 <!-- Auto Generated Below -->
 
+
 ## Properties
 
 | Property                | Attribute                  | Description | Type      | Default     |
@@ -18,6 +19,7 @@
 | `passwordStrengthLabel` | `password-strength-label`  |             | `string`  | `undefined` |
 | `passwordStrengthValue` | `password-strength-value`  |             | `number`  | `undefined` |
 
+
 ## Dependencies
 
 ### Depends on
@@ -30,7 +32,6 @@
 - ion-alert-controller
 
 ### Graph
-
 ```mermaid
 graph TD;
   optr-app --> ion-grid
@@ -57,6 +58,6 @@ graph TD;
   style optr-app fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
----
+----------------------------------------------
 
-_Built with [StencilJS](https://stenciljs.com/)_
+*Built with [StencilJS](https://stenciljs.com/)*

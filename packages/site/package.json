@@ -14,15 +14,13 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@ionic/core": "^4.7.1",
-    "@optr/lib": "^0.1.0",
-    "copy-to-clipboard": "^3.2.0",
-    "github-buttons": "^2.2.10",
-    "zxcvbn": "^4.4.2"
+    "@ionic/core": "^4.7.4",
+    "@optr/components": "^0.0.6",
+    "github-buttons": "^2.2.10"
+    
   },
   "devDependencies": {
-    "@stencil/core": "^1.2.1",
-    "@stencil/sass": "^1.0.1",
-    "@types/md5": "^2.1.33"
+    "@stencil/core": "^1.2.4",
+    "@stencil/sass": "^1.0.1"
   }
 }
