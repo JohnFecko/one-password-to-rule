@@ -1,3 +1,5 @@
+<p align="left"><image src="https://raw.githubusercontent.com/leoafarias/one-password-to-rule/master/assets/logo.png" width="200px"/></p>
+
 # OPTR - One Password to Rule
 
 Is it possible to create of easy to remember, hard to guess secure deterministic passwords framework. Do we have the ability to recover all of our passwords from memory?
