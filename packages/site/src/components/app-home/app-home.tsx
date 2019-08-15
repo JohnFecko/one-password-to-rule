@@ -37,32 +37,34 @@ export class AppHome {
           </ion-buttons>
         </ion-toolbar>
       </ion-header>,
-      <ion-grid>
-        <ion-row>
-          <ion-col size="12" sizeMd="5" offsetMd="1">
-            <h1 class="title">
-              One Password
-              <br />
-              to Rule Them All
-            </h1>
-            <p class="subheading">
-              This project is meant to be an experiment on deterministic password generation and management.
-            </p>
-            <p class="description">
-              Is it possible to create of easy to remember, hard to guess secure deterministic password framework. Do we
-              have the ability to recover all of our passwords from memory?
-            </p>
-            <ion-button color="dark" fill="outline" mode="ios">
-              <ion-icon slot="start" name="logo-github" />
-              Read more
-            </ion-button>
-          </ion-col>
-          <ion-col size="12" sizeMd="4" offsetMd="2" pullMd="1">
-            <optr-app />
-          </ion-col>
-        </ion-row>
-        <ion-alert-controller />
-      </ion-grid>
+      <ion-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12" sizeMd="5" offsetMd="1">
+              <h1 class="title">
+                One Password
+                <br />
+                to Rule Them All
+              </h1>
+              <p class="subheading">
+                This project is meant to be an experiment on deterministic password generation and management.
+              </p>
+              <p class="description">
+                Is it possible to create of easy to remember, hard to guess secure deterministic password framework. Do
+                we have the ability to recover all of our passwords from memory?
+              </p>
+              <ion-button color="dark" fill="outline" mode="ios">
+                <ion-icon slot="start" name="logo-github" />
+                Read more
+              </ion-button>
+            </ion-col>
+            <ion-col size="12" sizeMd="4" offsetMd="2" pullMd="1">
+              <optr-app />
+            </ion-col>
+          </ion-row>
+          <ion-alert-controller />
+        </ion-grid>
+      </ion-content>
     ];
   }
 }
