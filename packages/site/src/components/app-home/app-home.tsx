@@ -53,7 +53,7 @@ export class AppHome {
                 Is it possible to create of easy to remember, hard to guess secure deterministic password framework. Do
                 we have the ability to recover all of our passwords from memory?
               </p>
-              <ion-button color="dark" fill="outline" mode="ios">
+              <ion-button href="https://github.com/leoafarias/one-password-to-rule" color="dark" fill="outline" mode="ios">
                 <ion-icon slot="start" name="logo-github" />
                 Read more
               </ion-button>
